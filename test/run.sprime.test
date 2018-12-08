@@ -1,0 +1,34 @@
+#!/bin/bash
+if [ ! -f sprime.jar ]; then
+  echo
+  echo "Download SPrime program: sprime.jar"
+  echo
+  wget https://faculty.washington.edu/browning/sprime.jar
+fi
+
+if [ ! -f three.segments.vcf.gz ]; then
+    echo
+    echo "Download test VCF file: three.segments.vcf.gz"
+    echo
+    wget https://raw.githubusercontent.com/browning-lab/sprime/master/test/three.segments.vcf.gz
+fi
+
+if [ ! -f outgroup.ids ]; then
+    echo
+    echo "Download outgroup sample identifers: outgroup.ids"
+    echo
+    wget https://raw.githubusercontent.com/browning-lab/sprime/master/test/outgroup.ids
+fi
+
+if [ ! -f three.segments.map ]; then
+    echo
+    echo "Download genetic map: three.segments.map"
+    echo
+    wget https://raw.githubusercontent.com/browning-lab/sprime/master/test/three.segments.map
+fi
+
+echo
+echo "Run sprime analysis of test data"
+echo
+java -jar sprime.jar gt=three.segments.vcf.gz outgroup=outgroup.ids map=three.segments.map out=sprime.out
+
