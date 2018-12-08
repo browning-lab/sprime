@@ -35,7 +35,7 @@ import java.util.Locale;
 public class SMain {
 
     private static final String PROGRAM = "sprime.jar";
-    private static final String VERSION = "__REV__";
+    private static final String VERSION = "07Dec18.5e2";
 
     /**
      * The java command to run this version of the sprime program.
