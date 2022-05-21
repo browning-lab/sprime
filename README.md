@@ -12,7 +12,7 @@ cite the article that describes the SPrime method:
 
 Sharon Browning and Brian Browning
 
-Last updated May 20, 2018
+Last updated May 20, 2022
 
 ## Installation
 
@@ -81,11 +81,11 @@ input VCF file must match. HapMap genetic maps in cM units are available for
 
 ### Optional Parameters
 * **chrom=[chrom]:[start]‑[end]** limits the output to a chromosome interval
-where **[chrom]** is the CHROM identifier in the input VCF file, and 
-**[start]** and **[end]** are the start and end positions. An entire chromosome, 
-the beginning of a chromosome, or the end of a chromosome may be specified 
-with **chrom=[chrom]**, **chrom=[chrom]:‑[end]**, and 
-**chrom=[chrom]:[start]‑** respectively. If the **chrom** parameter is used, 
+where **[chrom]** is the CHROM identifier in the input VCF file, and
+**[start]** and **[end]** are the start and end positions. An entire chromosome,
+the beginning of a chromosome, or the end of a chromosome may be specified
+with **chrom=[chrom]**, **chrom=[chrom]:‑[end]**, and
+**chrom=[chrom]:[start]‑** respectively. If the **chrom** parameter is used,
 the input VCF file must still contain **all** autosomes so that the
 global variant density can be accurately estimated.
 * **maxfreq=[nonnegative number ≤ 1.0]** specifies the maximum frequency of an
