@@ -12,7 +12,7 @@ cite the article that describes the SPrime method:
 
 Sharon Browning and Brian Browning
 
-Last updated Dec 4, 2018
+Last updated May 20, 2018
 
 ## Installation
 
@@ -73,9 +73,9 @@ Outgroup samples must have genotype data in the VCF file specified with the
 with cM units. SPrime will use linear interpolation to estimate genetic
 positions between map positions. Chromosome identifiers in the genetic map and
 input VCF file must match. HapMap genetic maps in cM units are available for
-[GRCh36](http://bochet.gcc.biostat.washington.edu/beagle/genetic_maps/plink.GRCh36.map.zip),
-[GRCh37](http://bochet.gcc.biostat.washington.edu/beagle/genetic_maps/plink.GRCh37.map.zip), and
-[GRCh38](http://bochet.gcc.biostat.washington.edu/beagle/genetic_maps/plink.GRCh38.map.zip).
+[GRCh36](https://bochet.gcc.biostat.washington.edu/beagle/genetic_maps/plink.GRCh36.map.zip),
+[GRCh37](https://bochet.gcc.biostat.washington.edu/beagle/genetic_maps/plink.GRCh37.map.zip), and
+[GRCh38](https://bochet.gcc.biostat.washington.edu/beagle/genetic_maps/plink.GRCh38.map.zip).
 
 * **out=[string]** where **[string]** is a filename prefix for the output files.
 
